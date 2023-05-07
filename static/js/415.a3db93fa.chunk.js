@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_tp_test_01=self.webpackChunkgoit_tp_test_01||[]).push([[415],{415:function(e,s,t){t.r(s);var c=t(184);s.default=function(){return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)("h1",{className:"App__title",children:"Welcome"}),(0,c.jsxs)("p",{className:"App__welcome",children:["Edit ",(0,c.jsx)("code",{children:"src/App.js"})," and save to reload."]})]})}}}]);
+//# sourceMappingURL=415.a3db93fa.chunk.js.map
