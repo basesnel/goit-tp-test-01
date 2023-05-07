@@ -58,5 +58,7 @@ export const Loading = styled.div`
 `;
 
 export const Main = styled.main`
-  padding: 0 24px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8 16px;
 `;

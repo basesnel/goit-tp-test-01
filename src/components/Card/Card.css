@@ -47,6 +47,7 @@
 
 .Card__data {
   position: absolute;
+  text-align: center;
   top: 284px;
   width: 100%;
 }
