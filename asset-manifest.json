@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/goit-tp-test-01/static/css/main.94d1d367.css",
-    "main.js": "/goit-tp-test-01/static/js/main.6818f226.js",
+    "main.js": "/goit-tp-test-01/static/js/main.6d33a13f.js",
     "static/js/415.a3db93fa.chunk.js": "/goit-tp-test-01/static/js/415.a3db93fa.chunk.js",
-    "static/css/672.fc80d555.chunk.css": "/goit-tp-test-01/static/css/672.fc80d555.chunk.css",
+    "static/css/672.801aaad8.chunk.css": "/goit-tp-test-01/static/css/672.801aaad8.chunk.css",
     "static/js/672.eaecd99f.chunk.js": "/goit-tp-test-01/static/js/672.eaecd99f.chunk.js",
     "static/media/background.png": "/goit-tp-test-01/static/media/background.032662a2a907475127d7.png",
     "static/media/goit-logo.svg": "/goit-tp-test-01/static/media/goit-logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-tp-test-01/index.html",
     "main.94d1d367.css.map": "/goit-tp-test-01/static/css/main.94d1d367.css.map",
-    "main.6818f226.js.map": "/goit-tp-test-01/static/js/main.6818f226.js.map",
+    "main.6d33a13f.js.map": "/goit-tp-test-01/static/js/main.6d33a13f.js.map",
     "415.a3db93fa.chunk.js.map": "/goit-tp-test-01/static/js/415.a3db93fa.chunk.js.map",
-    "672.fc80d555.chunk.css.map": "/goit-tp-test-01/static/css/672.fc80d555.chunk.css.map",
+    "672.801aaad8.chunk.css.map": "/goit-tp-test-01/static/css/672.801aaad8.chunk.css.map",
     "672.eaecd99f.chunk.js.map": "/goit-tp-test-01/static/js/672.eaecd99f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94d1d367.css",
-    "static/js/main.6818f226.js"
+    "static/js/main.6d33a13f.js"
   ]
 }
