@@ -1,0 +1,11 @@
+.Warning {
+  width: 200px;
+  border: 1px solid red;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: red;
+}

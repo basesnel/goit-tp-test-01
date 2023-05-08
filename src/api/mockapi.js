@@ -1,8 +1,11 @@
-export function getUsers() {
-  return fetch("https://6457a8a30c15cb14820dc3cc.mockapi.io/users", {
-    method: "GET",
-    headers: { "content-type": "application/json" },
-  }).then((res) => {
+export function getUsers(page, limit) {
+  return fetch(
+    `https://6457a8a30c15cb14820dc3cc.mockapi.io/users?p=${page}&l=${limit}`,
+    {
+      method: "GET",
+      headers: { "content-type": "application/json" },
+    }
+  ).then((res) => {
     if (res.ok) {
       return res.json();
     }

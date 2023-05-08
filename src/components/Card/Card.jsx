@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./Card.css";
 import goitLogo from "../../images/goit-logo.svg";
 
@@ -35,3 +36,12 @@ export default function Card(props) {
     </div>
   );
 }
+
+Card.propTypes = {
+  user: PropTypes.string.isRequired,
+  tweets: PropTypes.number.isRequired,
+  followers: PropTypes.number.isRequired,
+  isfollowing: PropTypes.bool.isRequired,
+  avatar: PropTypes.string.isRequired,
+  onHandleClick: PropTypes.func.isRequired,
+};

@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./CardsList.css";
 import Card from "../Card/Card";
 
@@ -23,3 +24,17 @@ export default function CardsList(props) {
     </section>
   );
 }
+
+CardsList.propTypes = {
+  tweets: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      user: PropTypes.string.isRequired,
+      tweets: PropTypes.number.isRequired,
+      followers: PropTypes.number.isRequired,
+      isfollowing: PropTypes.bool.isRequired,
+      avatar: PropTypes.string.isRequired,
+    })
+  ).isRequired,
+  updateTweet: PropTypes.func.isRequired,
+};

@@ -9,7 +9,7 @@ const Tweets = lazy(() => import("../pages/Tweets"));
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

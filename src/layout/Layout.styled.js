@@ -58,6 +58,9 @@ export const Loading = styled.div`
 `;
 
 export const Main = styled.main`
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
   max-width: 1280px;
   margin: 0 auto;
   padding: 8px 16px;
