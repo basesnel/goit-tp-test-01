@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_tp_test_01=self.webpackChunkgoit_tp_test_01||[]).push([[415],{415:function(e,t,s){s.r(t);var c=s(184);t.default=function(){return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)("h1",{className:"App__title",children:"Welcome"}),(0,c.jsx)("p",{className:"App__welcome",children:'It is a test proect for user\'s tweet cards, created by React. You can evaluate the work of the project by clicking on the menu "Tweets".'})]})}}}]);
+//# sourceMappingURL=415.cd31ace9.chunk.js.map
