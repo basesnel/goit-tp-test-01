@@ -16,7 +16,7 @@ export const Header = styled.header`
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
     0 1px 10px 0 rgba(0, 0, 0, 0.12);
   nav {
-    max-width: 960px;
+    max-width: 1280px;
     margin: 0 auto;
   }
   nav > ul {
@@ -58,7 +58,7 @@ export const Loading = styled.div`
 `;
 
 export const Main = styled.main`
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 8 16px;
+  padding: 8px 16px;
 `;
