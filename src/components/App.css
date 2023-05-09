@@ -8,3 +8,13 @@
 .App__title {
   text-transform: uppercase;
 }
+
+.Service {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.Filter {
+  width: 240px;
+}

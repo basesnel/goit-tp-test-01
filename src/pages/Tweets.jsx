@@ -7,6 +7,7 @@ import Info from "../components/Info";
 import Loader from "../components/Loader";
 import LoadMoreButton from "../components/LoadMoreButton";
 import Warning from "../components/Warning";
+import Select from "react-select";
 
 const Tweets = () => {
   const location = useLocation();
@@ -17,6 +18,7 @@ const Tweets = () => {
   const [pending, setPending] = useState(true);
   const [errorStatus, setErrorStatus] = useState(false);
   const [error, setError] = useState(null);
+  const [filter, setFilter] = useState("");
 
   const perPage = 3;
   const effectRan = useRef(false);
@@ -76,11 +78,46 @@ const Tweets = () => {
     setCurrentPage(currentPage + 1);
   };
 
+  const visibleUsers = filterTweets(filter, users);
+
+  const options = [
+    { label: "all", value: "all" },
+    { label: "follow", value: "follow" },
+    { label: "following", value: "following" },
+  ];
+
+  function filterTweets(filter, users) {
+    switch (filter) {
+      case "all":
+        return users;
+
+      case "follow":
+        return users.filter((user) => !user.isfollowing);
+
+      case "following":
+        return users.filter((user) => user.isfollowing);
+
+      default:
+        return users;
+    }
+  }
+
+  function selectOption(value) {
+    setFilter(value);
+  }
+
   return (
     <>
-      <BackLink to={backLinkHref}>Back</BackLink>
+      <section className="Service">
+        <BackLink to={backLinkHref}>Back</BackLink>
+        <Select
+          options={options}
+          className="Filter"
+          onChange={(option) => selectOption(option.value)}
+        />
+      </section>
       <h1 className="App__title">Tweets</h1>
-      <CardsList tweets={users} updateTweet={updateTweet} />
+      <CardsList tweets={visibleUsers} updateTweet={updateTweet} />
       {pending ? (
         <Loader waitingNote="Loading  more tweets..." />
       ) : errorStatus ? (
