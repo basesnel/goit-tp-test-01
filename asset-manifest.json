@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/goit-tp-test-01/static/css/main.619c6aa3.css",
-    "main.js": "/goit-tp-test-01/static/js/main.b4c1e860.js",
-    "static/js/415.cd31ace9.chunk.js": "/goit-tp-test-01/static/js/415.cd31ace9.chunk.js",
-    "static/css/841.d143bb42.chunk.css": "/goit-tp-test-01/static/css/841.d143bb42.chunk.css",
-    "static/js/841.6f7bf777.chunk.js": "/goit-tp-test-01/static/js/841.6f7bf777.chunk.js",
-    "static/js/474.014c9803.chunk.js": "/goit-tp-test-01/static/js/474.014c9803.chunk.js",
+    "main.css": "/goit-tp-test-01/static/css/main.e6b6f347.css",
+    "main.js": "/goit-tp-test-01/static/js/main.f5cf1bb7.js",
+    "static/js/415.44596bb3.chunk.js": "/goit-tp-test-01/static/js/415.44596bb3.chunk.js",
+    "static/css/413.313dc19a.chunk.css": "/goit-tp-test-01/static/css/413.313dc19a.chunk.css",
+    "static/js/413.873cad3d.chunk.js": "/goit-tp-test-01/static/js/413.873cad3d.chunk.js",
+    "static/js/474.3b69e641.chunk.js": "/goit-tp-test-01/static/js/474.3b69e641.chunk.js",
     "static/media/background.png": "/goit-tp-test-01/static/media/background.032662a2a907475127d7.png",
     "static/media/goit-logo.svg": "/goit-tp-test-01/static/media/goit-logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/goit-tp-test-01/index.html",
-    "main.619c6aa3.css.map": "/goit-tp-test-01/static/css/main.619c6aa3.css.map",
-    "main.b4c1e860.js.map": "/goit-tp-test-01/static/js/main.b4c1e860.js.map",
-    "415.cd31ace9.chunk.js.map": "/goit-tp-test-01/static/js/415.cd31ace9.chunk.js.map",
-    "841.d143bb42.chunk.css.map": "/goit-tp-test-01/static/css/841.d143bb42.chunk.css.map",
-    "841.6f7bf777.chunk.js.map": "/goit-tp-test-01/static/js/841.6f7bf777.chunk.js.map",
-    "474.014c9803.chunk.js.map": "/goit-tp-test-01/static/js/474.014c9803.chunk.js.map"
+    "main.e6b6f347.css.map": "/goit-tp-test-01/static/css/main.e6b6f347.css.map",
+    "main.f5cf1bb7.js.map": "/goit-tp-test-01/static/js/main.f5cf1bb7.js.map",
+    "415.44596bb3.chunk.js.map": "/goit-tp-test-01/static/js/415.44596bb3.chunk.js.map",
+    "413.313dc19a.chunk.css.map": "/goit-tp-test-01/static/css/413.313dc19a.chunk.css.map",
+    "413.873cad3d.chunk.js.map": "/goit-tp-test-01/static/js/413.873cad3d.chunk.js.map",
+    "474.3b69e641.chunk.js.map": "/goit-tp-test-01/static/js/474.3b69e641.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.619c6aa3.css",
-    "static/js/main.b4c1e860.js"
+    "static/css/main.e6b6f347.css",
+    "static/js/main.f5cf1bb7.js"
   ]
 }
