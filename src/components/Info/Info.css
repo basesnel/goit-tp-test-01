@@ -1,0 +1,11 @@
+.Info {
+  width: 200px;
+  border: 1px solid #3f51b5;
+  border-radius: 4px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color: #3f51b5;
+}

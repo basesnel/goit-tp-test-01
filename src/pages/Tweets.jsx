@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import { getUsers, updateUser } from "../api/mockapi";
 import BackLink from "../components/BackLink";
 import CardsList from "../components/CardsList";
+import Info from "../components/Info";
 import Loader from "../components/Loader";
 import LoadMoreButton from "../components/LoadMoreButton";
 import Warning from "../components/Warning";
@@ -36,7 +37,7 @@ const Tweets = () => {
             console.log(error.message);
           })
           .finally(setPending(false));
-      }, 250);
+      }, 370);
     }
 
     return () => {
@@ -84,6 +85,8 @@ const Tweets = () => {
         <Loader waitingNote="Loading  more tweets..." />
       ) : errorStatus ? (
         <Warning message={error.message} />
+      ) : currentPage > 3 ? (
+        <Info message="End of tweet list" />
       ) : (
         <LoadMoreButton onClick={onLoadMoreTweets} />
       )}
