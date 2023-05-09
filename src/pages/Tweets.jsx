@@ -7,7 +7,9 @@ import Info from "../components/Info";
 import Loader from "../components/Loader";
 import LoadMoreButton from "../components/LoadMoreButton";
 import Warning from "../components/Warning";
-import Select from "react-select";
+import Filter from "../components/Filter";
+import AuxPanel from "../components/AuxPanel";
+import Title from "../components/Title";
 
 const Tweets = () => {
   const location = useLocation();
@@ -80,12 +82,6 @@ const Tweets = () => {
 
   const visibleUsers = filterTweets(filter, users);
 
-  const options = [
-    { label: "all", value: "all" },
-    { label: "follow", value: "follow" },
-    { label: "following", value: "following" },
-  ];
-
   function filterTweets(filter, users) {
     switch (filter) {
       case "all":
@@ -102,21 +98,23 @@ const Tweets = () => {
     }
   }
 
+  const options = [
+    { label: "all", value: "all" },
+    { label: "follow", value: "follow" },
+    { label: "following", value: "following" },
+  ];
+
   function selectOption(value) {
     setFilter(value);
   }
 
   return (
     <>
-      <section className="Service">
+      <AuxPanel>
         <BackLink to={backLinkHref}>Back</BackLink>
-        <Select
-          options={options}
-          className="Filter"
-          onChange={(option) => selectOption(option.value)}
-        />
-      </section>
-      <h1 className="App__title">Tweets</h1>
+        <Filter options={options} selectOption={selectOption} />
+      </AuxPanel>
+      <Title text="Tweets" />
       <CardsList tweets={visibleUsers} updateTweet={updateTweet} />
       {pending ? (
         <Loader waitingNote="Loading  more tweets..." />

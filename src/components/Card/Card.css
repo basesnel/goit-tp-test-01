@@ -17,8 +17,10 @@
   top: 20px;
 }
 
-.Card__delimiter {
+.Card::after {
+  content: "";
   position: absolute;
+  display: block;
   left: 0;
   top: 214px;
   width: 380px;
@@ -41,8 +43,6 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  /* background-color: #5736a3; */
-  /* border: 9px solid #ebd8ff; */
   background-color: #ebd8ff;
   box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
     inset 0px -2.19582px 4.39163px #ae7be3,
@@ -78,8 +78,6 @@
 .Card__button {
   width: 196px;
   height: 50px;
-  background: #ebd8ff;
-  box-shadow: 0px 3.436px 3.436px rgba(0, 0, 0, 0.25);
   border: 0;
   border-radius: 10px;
   font-family: "Montserrat";
@@ -89,9 +87,21 @@
   line-height: 22px;
   text-transform: uppercase;
   color: #373737;
+  background-color: #ebd8ff;
+  box-shadow: 0px 3.436px 3.436px rgba(0, 0, 0, 0.25);
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Card__button:hover {
+  background-color: #5cd3a8;
 }
 
 .Card__button--following {
-  background: #5cd3a8;
+  background-color: #5cd3a8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Card__button--following:hover {
+  background-color: #ebd8ff;
 }

@@ -14,9 +14,8 @@ export default function Card(props) {
     <div className="Card">
       <img src={goitLogo} alt="GoIt Logo" className="Card__logo" />
       <div className="Card__imgwrapper">
-        <img src={avatar} alt={user} className="Card__img" />
+        <img src={avatar} alt={user} width="62" className="Card__img" />
       </div>
-      <div className="Card__delimiter"></div>
       <div className="Card__data">
         <p className="Card__txt">{numberWithSeparator(tweets)} tweets</p>
         <p className="Card__txt">{numberWithSeparator(followers)} followers</p>

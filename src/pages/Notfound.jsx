@@ -1,7 +1,9 @@
+import Title from "../components/Title";
+
 const NotFound = () => {
   return (
     <>
-      <h1>Sorry, but no page found</h1>
+      <Title text="Sorry, but no page found..." />
     </>
   );
 };
