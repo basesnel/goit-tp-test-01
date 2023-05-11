@@ -22,6 +22,5 @@
 
 .LoadMoreButton:hover,
 .LoadMoreButton:focus {
-  color: #373737;
-  background-color: #ebd8ff;
+  background-color: #3a1d7e;
 }
